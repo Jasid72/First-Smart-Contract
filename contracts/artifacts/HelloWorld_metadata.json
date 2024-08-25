@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mess",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,10 +60,10 @@
 	},
 	"sources": {
 		"contracts/hello.sol": {
-			"keccak256": "0x41aa25685aaa92ebd350e14a998a875e52dd73e8312d7bcbb2f31e8b0d4f673a",
+			"keccak256": "0x341af27a5dc70b91372041c2a5a55cd8a47701bdda8a37c8c30a5f956fd53036",
 			"urls": [
-				"bzz-raw://1c17a75f429e05a3df5eeca00c8cfff5a2d3f7d9e8c3c78e323c1aaf643debfe",
-				"dweb:/ipfs/QmYBFW9k7g3i7vyYP78bNJvwFjGxvxX8ND68ZRydLHLC7b"
+				"bzz-raw://c7ea9e1fba9602abf1653cc01cc377da6932515b829044f5e94ad7dab92976fa",
+				"dweb:/ipfs/QmcdDhcUqSV8ScLZxc8Qd5EKfMcxMdRSePYX3ryHd7QrZg"
 			]
 		}
 	},
