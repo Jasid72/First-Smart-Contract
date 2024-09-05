@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_ammount",
+						"name": "balance",
 						"type": "uint256"
 					}
 				],
-				"name": "setBalance",
+				"name": "addUser",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -26,12 +26,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
 					}
 				],
-				"name": "testmapping",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -40,6 +40,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -56,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mapping.sol": "Mapping"
+			"contracts/Assignment.sol": "MemoryAndStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -70,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/mapping.sol": {
-			"keccak256": "0x377e455e50dbc72d363a53d5289d9daf285dcb9e722d782ff585fae7c2c2ec28",
+		"contracts/Assignment.sol": {
+			"keccak256": "0xaf655c126d00baf73628d1a42255a9cab49d8bf17c53c8a3dd7b7b48fa6ba237",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf251f007e69c2882a4b67ac7fc2d66227e6561c5a90a744eea3d364ec06bf7f",
-				"dweb:/ipfs/QmTXEA5cJQ6JVEb6TPEn2xc8TF1WiFnLr9AryJQpS3wuoS"
+				"bzz-raw://96cae9fe5c1241c08602f41ab63df7476e38d1c61a6d7eb7d3fddc78377ff772",
+				"dweb:/ipfs/QmTk8FkhS97gNvkeGHmVQ7oWfPBJwA9fSuh5ptS9JEyDAH"
 			]
 		}
 	},
